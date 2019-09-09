@@ -1,0 +1,18 @@
+server:
+  port: 8888
+  servlet:
+    context-path: /jpa
+spring:
+  profiles:
+    active: dev
+
+---
+spring:
+  profiles: dev
+
+
+
+---
+spring:
+  profiles: test
+
