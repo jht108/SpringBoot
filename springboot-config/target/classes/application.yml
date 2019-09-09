@@ -1,0 +1,49 @@
+server:
+  port: 8888
+spring:
+  profiles:
+    active: dev
+
+---
+
+person:
+  lastName: 江海天
+  age: ${random.int(100)}
+  sex: 男
+  email: 2633790462@qq.com
+  birth: 1994/08/21
+  map: {k1: 1,k2: 1.1,k3:false,k4: c,k5: jht}
+  list: [1,2,3,4,5,6,q,a,c,d,b,d,f,g]
+  dog:
+    name: 小白
+    color: white
+spring:
+  profiles: dev
+
+---
+person:
+  lastName: 几何体
+  age: 18
+  sex: 女
+  email: 2633790462qq.com
+  birth: 1994/08/21
+  map:
+    k1: ${random.int(100)}
+    k2: a
+    k3: false
+    k4: ${random.double(100)}
+  list:
+    - 1
+    - false
+    - aaaa
+    - 3.1415927
+    - c
+    - 12345678999999
+
+  dog:
+    name: 小白
+    color: white
+
+spring:
+  profiles: test
+

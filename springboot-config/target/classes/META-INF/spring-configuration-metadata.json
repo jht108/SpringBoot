@@ -1,0 +1,52 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "com.geometry.springboot.domin.Person",
+      "sourceType": "com.geometry.springboot.domin.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.geometry.springboot.domin.Person"
+    },
+    {
+      "name": "person.birth",
+      "type": "java.util.Date",
+      "sourceType": "com.geometry.springboot.domin.Person"
+    },
+    {
+      "name": "person.dog",
+      "type": "com.geometry.springboot.domin.Dog",
+      "sourceType": "com.geometry.springboot.domin.Person"
+    },
+    {
+      "name": "person.email",
+      "type": "java.lang.String",
+      "sourceType": "com.geometry.springboot.domin.Person"
+    },
+    {
+      "name": "person.last-name",
+      "type": "java.lang.String",
+      "sourceType": "com.geometry.springboot.domin.Person"
+    },
+    {
+      "name": "person.list",
+      "type": "java.util.List<java.lang.Object>",
+      "sourceType": "com.geometry.springboot.domin.Person"
+    },
+    {
+      "name": "person.map",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.geometry.springboot.domin.Person"
+    },
+    {
+      "name": "person.sex",
+      "type": "java.lang.String",
+      "sourceType": "com.geometry.springboot.domin.Person"
+    }
+  ],
+  "hints": []
+}
